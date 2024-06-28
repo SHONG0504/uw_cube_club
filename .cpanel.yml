@@ -2,5 +2,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/cubeclubswusa/public_html/
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp index.php $DEPLOYPATH
+ - /bin/cp -R css $DEPLOYPATH
