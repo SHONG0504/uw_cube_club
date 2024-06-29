@@ -4,3 +4,4 @@ deployment:
  - export DEPLOYPATH=/home/cubeclubswusa/public_html/
  - /bin/cp index.php $DEPLOYPATH
  - /bin/cp -R css $DEPLOYPATH
+ - /bin/cp -R results $DEPLOYPATH
