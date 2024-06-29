@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.page-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid #e2e8f0;
+    &:hover {
+        background-color: #f1f5f9;
+    }
+}
+
+th {
+    color: #1e293b;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+td {
+    color: #1e293b;
+    padding: 8px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #0284c7;
+    &:hover {
+        text-decoration: underline;
+    }
+}
