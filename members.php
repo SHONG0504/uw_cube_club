@@ -7,7 +7,7 @@ $dbname = $env["DB_NAME"];
 
 $conn = new mysqli($hostname, $username, $password, $dbname);
 if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+  die("DB connection failed");
 }
 
 $sql = "SELECT name, program, level, year, wca FROM members ORDER BY year DESC";
