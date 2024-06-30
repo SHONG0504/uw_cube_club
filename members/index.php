@@ -19,7 +19,7 @@ $result = $conn->query($sql);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css" type="text/css"/>
+  <link rel="stylesheet" href="../css/index.css" type="text/css"/>
   <title>Members</title>
 </head>
 <body class="page-container">
