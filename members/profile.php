@@ -15,5 +15,5 @@ $wca_id = strtoupper($_GET["wca_id"]);
 $sql = "SELECT name, program, level, year, wca FROM members WHERE wca=\'".$wca_id."\'";
 $result = $conn->query($sql);
 print_r($result);
+print($sql);
 ?>
-aasdasdhasjda
