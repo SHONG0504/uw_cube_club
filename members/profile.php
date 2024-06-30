@@ -10,7 +10,7 @@ if ($conn->connect_error) {
   die("DB connection failed");
 }
 
-$wca_id = $_GET["wca_id"];
+$wca_id = strtoupper($_GET["wca_id"]);
 
 $sql = "SELECT name, program, level, year, wca FROM members WHERE wca=\'".$wca_id."\'";
 $result = $conn->query($sql);
